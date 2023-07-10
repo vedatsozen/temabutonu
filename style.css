@@ -1,0 +1,24 @@
+@import url(https://fonts.bunny.net/css?family=advent-pro:800|alatsi:400);
+
+body {
+    text-align: center;
+font-family: 'Alatsi', sans-serif;
+}
+
+img#themebtn {
+    height: 30px !important;
+    width:30px !important;
+    position: absolute;
+    top:10px;
+    right:10px;
+    cursor: pointer;
+}
+
+h1 {
+    margin: auto;
+    margin-top:250px;
+    color:black;
+    font-size:50px;
+    width:50vw;
+    letter-spacing: 5px;
+}

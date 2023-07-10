@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATTR PRACTICING</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    
+<img id="themebtn" src="moon.png">
+
+<h1>LIGHT AND DARK THEME CHANGING PRACTICE</h1>
+
+</body>
+
+<script>
+
+$(document).ready(function() {
+$("#themebtn").click(function() {
+
+var themebtn = $("#themebtn");
+
+if(themebtn.attr("src") === "moon.png") {
+themebtn.attr("src","sun.png");
+document.body.style.backgroundColor = "black";
+document.querySelector("h1").style.color = "white";
+}
+
+else {
+themebtn.attr("src","moon.png");
+document.body.style.backgroundColor = "white";
+document.querySelector("h1").style.color = "black";
+}
+
+});
+
+});
+
+
+</script>
+</html>
